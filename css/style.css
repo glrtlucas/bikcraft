@@ -1,0 +1,124 @@
+/* general css */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+}
+
+p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.btn {
+  width: 140px;
+  height: 40px;
+  border: 4px solid;
+  padding: 12px 21px;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+}
+
+.btn.btn-primary {
+  border-color: #fec63e;
+  color: #fec63e;
+}
+
+.btn.btn-primary:hover {
+  border-color: #000;
+  color: #000;
+}
+/* general css */
+
+/* header */
+header {
+  width: 100%;
+  height: 80px;
+  background: #fec63e;
+  padding: 9px 0;
+  position: fixed;
+  top: 0;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  text-align: right;
+}
+
+.menu-item {
+  display: inline-flex;
+  margin-left: 25px;
+}
+
+.menu-item a {
+  text-transform: uppercase;
+  color: #000;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  padding: 20px 0;
+}
+
+.menu-item a:hover {
+  color: #fff;
+}
+/* /header */
+
+/* banner */
+.banner {
+  margin-top: 80px;
+  width: 100%;
+  height: 380px;
+  background: url("../img/bg_home.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.banner .content {
+  padding: 80px 0 50px 0;
+  text-align: center;
+}
+
+.banner .content h1 {
+  font-weight: 800;
+  font-size: 48px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.banner .content blockquote {
+  width: 320px;
+  padding: 6px 0 40px 0;
+  margin: 0 auto;
+}
+
+.banner .content blockquote p {
+  color: #fff;
+  margin: 12px 0;
+  font-style: italic;
+  line-height: 20px;
+}
+
+.banner .content blockquote p::before,
+.banner .content blockquote p::after {
+  content: "";
+  width: 60px;
+  height: 3px;
+  background: #fff;
+  margin: 12px auto;
+  display: block;
+}
+
+.banner .content blockquote cite {
+  font-weight: 800;
+  color: #fff;
+  text-transform: uppercase;
+  font-style: normal;
+  letter-spacing: 0.1em;
+  padding-bottom: 40px;
+}
+
+/* /banner */
