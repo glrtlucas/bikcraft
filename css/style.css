@@ -29,6 +29,48 @@ p {
   border-color: #000;
   color: #000;
 }
+
+.titleSection {
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 800;
+  text-align: center;
+}
+
+.titleSection::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #000;
+  margin: 6px auto;
+}
+
+.subtitle {
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.subtitle::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #000;
+  margin: 6px auto;
+}
+
+.cta {
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.cta p {
+  padding-bottom: 30px;
+}
 /* general css */
 
 /* header */
@@ -39,6 +81,7 @@ header {
   padding: 9px 0;
   position: fixed;
   top: 0;
+  z-index: 9;
 }
 
 header .container {
@@ -120,5 +163,68 @@ header .container {
   letter-spacing: 0.1em;
   padding-bottom: 40px;
 }
-
 /* /banner */
+
+/* products */
+.products .titleSection {
+  padding-top: 60px;
+}
+
+.products .product-content {
+  padding: 40px 0;
+  display: inline-flex;
+}
+
+.products .product-icon {
+  height: 180px;
+  background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.products .product-description {
+  background: #fec63e;
+}
+
+.products .product-description h3.subtitle {
+  padding: 20px 0 10px 0;
+}
+
+.products .product-description p {
+  padding: 0px 21px 10px 21px;
+  text-align: center;
+  line-height: 20px;
+  letter-spacing: 0.05em;
+}
+/* /products */
+
+/* portfolio */
+.portfolio {
+  padding-top: 60px;
+  background: #000;
+  width: 100%;
+}
+
+.portfolio .titleSection {
+  color: #fec63e;
+}
+
+.portfolio .titleSection::after {
+  background: #fec63e;
+}
+
+.portfolio .portfolio-content {
+  padding: 40px 0;
+  display: inline-block;
+}
+
+.portfolio .grid-16 {
+  padding-top: 20px;
+}
+
+.portfolio .cta {
+  color: #fff;
+}
+
+/* /portfolio */ ;
