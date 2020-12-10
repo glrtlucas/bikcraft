@@ -1,2 +1,2 @@
 # bikcraft
-It's a repository for a educational project about HTML5, CSS3 and JS.
+Repositório para fins educaionais aplicando HTM5, CSS3 e Javascript.
