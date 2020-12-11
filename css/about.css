@@ -1,0 +1,36 @@
+/* content-page */
+.content-page {
+  padding-top: 60px;
+}
+
+.content-page .subtitle {
+  text-align: left;
+}
+
+.content-page .subtitle::after {
+  margin: 12px 0;
+}
+
+.content-page .mission {
+  padding-right: 80px;
+}
+
+.content-page .mission p {
+  padding-top: 20px;
+  line-height: 20px;
+  font-size: 18px;
+}
+
+.content-page .values ul li p {
+  line-height: 30px;
+  font-size: 18px;
+}
+
+.content-page .values ul li:first-child {
+  padding-top: 20px;
+}
+
+.content-page .team-bikcraft {
+  padding-top: 40px;
+}
+/* /content */
