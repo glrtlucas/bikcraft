@@ -100,4 +100,10 @@
   cursor: pointer;
 }
 
-/* /budget */ ;
+/* /budget */
+
+/* map */
+.map {
+  padding: 40px 0;
+}
+/* /map */
