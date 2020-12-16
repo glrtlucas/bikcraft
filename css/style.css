@@ -12,6 +12,7 @@ p {
 
 img {
   display: block;
+  max-width: 100%;
 }
 
 .btn,
@@ -89,7 +90,7 @@ button.btn {
 /* header */
 header {
   width: 100%;
-  height: 80px;
+  /* height: 80px; */
   background: #fec63e;
   padding: 9px 0;
   position: fixed;
@@ -122,6 +123,11 @@ header .container {
 .menu-item a:hover {
   color: #fff;
 }
+
+a.menu-item-active {
+  border-color: #fff;
+  color: #fff;
+}
 /* /header */
 
 /* banner */
@@ -146,7 +152,7 @@ header .container {
 }
 
 .banner .content blockquote {
-  width: 320px;
+  width: 300px;
   padding: 6px 0 40px 0;
   margin: 0 auto;
 }
@@ -185,7 +191,7 @@ header .container {
 
 .products .product-content {
   padding: 40px 0;
-  display: inline-flex;
+  /* display: inline-flex; */
 }
 
 .products .product-icon {
@@ -209,6 +215,10 @@ header .container {
   text-align: center;
   line-height: 20px;
   letter-spacing: 0.05em;
+}
+
+.products .cta {
+  margin-top: 280px;
 }
 /* /products */
 
