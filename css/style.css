@@ -15,6 +15,10 @@ img {
   max-width: 100%;
 }
 
+.social img {
+  max-width: none;
+}
+
 .btn,
 button.btn {
   width: 140px;
