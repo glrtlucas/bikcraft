@@ -153,4 +153,23 @@
   .budget form {
     padding-right: 0px;
   }
+
+  /* portfolio page */
+  .comment {
+    padding: 30px 0 20px 0;
+  }
+
+  .comment blockquote {
+    width: 300px;
+    text-align: center;
+  }
+
+  .comment blockquote p {
+    font-size: 14px;
+  }
+
+  /* contact page */
+  .map iframe {
+    width: 300px;
+  }
 }

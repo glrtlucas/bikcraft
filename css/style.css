@@ -15,7 +15,8 @@ img {
   max-width: 100%;
 }
 
-.social img {
+.social img,
+.budget .social-list img {
   max-width: none;
 }
 
