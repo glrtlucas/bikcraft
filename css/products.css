@@ -8,17 +8,49 @@
   padding-top: 60px;
 }
 
+.product-session-1 .grid-11,
+.product-session-1 .grid-5 {
+  height: 280px;
+}
+
+.product-session-1 .passeio {
+  background: url("../img/products/bikcraft_passeio_1.jpg") no-repeat center;
+}
+
+.product-session-1 .esporte {
+  background: url("../img/products/bikcraft_esporte_1.jpg") no-repeat center;
+}
+
+.product-session-1 .retro {
+  background: url("../img/products/bikcraft_retro_1.jpg") no-repeat center;
+}
+
+.product-session-1 .grid-11 {
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-session-1 .grid-5 {
+  background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-session-2 .grid-8 {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
 .product h2.product-title {
-  position: relative;
-  left: 50px;
   text-transform: uppercase;
   font-size: 36px;
   font-weight: 800;
   letter-spacing: 0.1em;
   color: #fff;
   text-align: center;
-  top: -180px;
-  left: 0;
 }
 
 .product h2.product-title::before,
@@ -38,6 +70,44 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.product-text p {
+  background: #000;
+  color: #fff;
+  line-height: 20px;
+  padding: 30px 30px 70px 30px;
+}
+
+.product-text ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product-text ul li {
+  background: #fec63e;
+  width: 230px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-text ul li:nth-child(odd) {
+  border-right: 3px solid #000;
+}
+
+.product-text ul li:nth-child(1),
+.product-text ul li:nth-child(2) {
+  border-bottom: 3px solid #000;
+}
+
+.product-text ul li span {
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 800;
+  text-align: center;
+  padding: 16px 60px;
 }
 /* /content-page */
 

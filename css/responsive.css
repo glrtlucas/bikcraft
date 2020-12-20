@@ -37,6 +37,14 @@
   .content-page .values ul li p {
     font-size: 14px;
   }
+
+  /* product page */
+  .product-session-2 .product-text p {
+    padding: 10px 15px 31px 15px;
+  }
+  .product-session-2 ul li {
+    width: 182px;
+  }
 }
 
 /* style for smartphones */
@@ -129,4 +137,14 @@
   .content-page .values ul li p {
     font-size: 14px;
   }
+
+  /* product page */
+
+  .product-session-2 .product-text ul li {
+    width: 100%;
+    border-right: none;
+    border-bottom: 3px solid #000;
+  }
+  .product-session-2 .product-text ul li:last-child {
+    border-bottom: none;
 }
