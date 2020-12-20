@@ -147,4 +147,10 @@
   }
   .product-session-2 .product-text ul li:last-child {
     border-bottom: none;
+  }
+
+  /* budget */
+  .budget form {
+    padding-right: 0px;
+  }
 }
