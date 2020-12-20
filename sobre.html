@@ -11,7 +11,9 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/about.css">
   <link rel="stylesheet" href="css/responsive.css">
-  <script src="js/script.js"></script>
+  <script>
+    document.documentElement.classList.add('js');
+  </script>
 </head>
 
 <body>
@@ -45,13 +47,13 @@
   <!-- header page -->
   <section class="header-page container">
     <div class="content">
-      <h1>Sobre</h1>
-      <p>conheça mais sobre a bikcraft</p>
+      <h1 class="fadeInDown" data-anime="500">Sobre</h1>
+      <p class="fadeInDown" data-anime="1000">conheça mais sobre a bikcraft</p>
     </div>
   </section>
   <!-- /header page -->
   <!-- content -->
-  <section class="content-page container">
+  <section class=" content-page container fadeInDown" data-anime="1500">
     <div class="mission grid-9">
       <h2 class="subtitle">História, Visão e Missão</h2>
       <p>Quando iniciamos a Bikcraft queriamos apenas um produto que adoraríamos utilizar. Eramos apaixonados por pedalar e também por fazer as coisas com as nossas próprias mãos. Assim surgiu um sonho na garagem da nossa casa.</p>
@@ -158,6 +160,8 @@
     </div>
   </section>
   <!-- /copyright -->
+  <script src="./js/simple-anime.js"></script>
+  <script src="./js/script.js"></script>
 </body>
 
 </html>

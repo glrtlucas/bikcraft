@@ -11,6 +11,9 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/contact.css">
   <link rel="stylesheet" href="css/responsive.css">
+  <script>
+    document.documentElement.classList.add('js');
+  </script>
 </head>
 
 <body>
@@ -44,13 +47,13 @@
   <!-- header page -->
   <section class="header-page container">
     <div class="content">
-      <h1>Contato</h1>
-      <p>tire suas dúvidas com a gente</p>
+      <h1 class="fadeInDown" data-anime="500">Contato</h1>
+      <p class="fadeInDown" data-anime="1000">tire suas dúvidas com a gente</p>
     </div>
   </section>
   <!-- /header page -->
   <!-- budget -->
-  <div class="container budget">
+  <div class="container budget fadeInDown" data-anime="1500">
     <div class="grid-8">
       <form action="" method="POST">
         <label for="name">Nome</label>
@@ -149,6 +152,8 @@
     </div>
   </section>
   <!-- /copyright -->
+  <script src="./js/simple-anime.js"></script>
+  <script src="./js/script.js"></script>
 </body>
 
 </html>

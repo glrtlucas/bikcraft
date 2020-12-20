@@ -11,6 +11,9 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/portfolio.css">
   <link rel="stylesheet" href="css/responsive.css">
+  <script>
+    document.documentElement.classList.add('js');
+  </script>
 </head>
 
 <body>
@@ -44,31 +47,50 @@
   <!-- header page -->
   <section class="header-page container">
     <div class="content">
-      <h1>Portfolio</h1>
-      <p>conheça os projetos que amamos mostrar</p>
+      <h1 class="fadeInDown" data-anime="500">Portfolio</h1>
+      <p class="fadeInDown" data-anime="1000">conheça os projetos que amamos mostrar</p>
     </div>
   </section>
   <!-- /header page -->
   <!-- comment -->
-  <section class="comment container">
+  <section class="comment container fadeInDown" data-slide="quote" data-anime="1500">
     <blockquote>
       <p>“Pedalar sempre foi a minha paixão, o que o pessoal da Bikcraft fez foi intensificar o meu amor por esta atividade. Recomendo à todos que amo.”</p>
-      <cite>Barbara Moss</cite>
+      <cite>Barbara Moss 1</cite>
+    </blockquote>
+    <blockquote>
+      <p>“Pedalar sempre foi a minha paixão, o que o pessoal da Bikcraft fez foi intensificar o meu amor por esta atividade. Recomendo à todos que amo.”</p>
+      <cite>Barbara Moss 2</cite>
+    </blockquote>
+    <blockquote>
+      <p>“Pedalar sempre foi a minha paixão, o que o pessoal da Bikcraft fez foi intensificar o meu amor por esta atividade. Recomendo à todos que amo.”</p>
+      <cite>Barbara Moss 3</cite>
     </blockquote>
   </section>
   <!-- /comment -->
   <!-- portfolio -->
-  <section class="portfolio">
-    <div class="container">
+  <section class="portfolio fadeInDown" data-anime="2000">
+    <div class="container" data-slide="portfolio">
       <div class="portfolio-content">
         <div class="grid-8">
           <img src="img/portfolio/retro.jpg" alt="Retrô">
         </div>
         <div class="grid-8">
-          <img src="img/portfolio/passeio.jpg" alt="Retrô">
+          <img src="img/portfolio/passeio.jpg" alt="Passeio">
         </div>
         <div class="grid-16">
-          <img src="img/portfolio/esporte.jpg" alt="Retrô">
+          <img src="img/portfolio/esporte.jpg" alt="Esporte">
+        </div>
+      </div>
+      <div class="portfolio-content">
+        <div class="grid-8">
+          <img src="img/portfolio/passeio.jpg" alt="Passeio">
+        </div>
+        <div class="grid-8">
+          <img src="img/portfolio/retro.jpg" alt="Retrô">
+        </div>
+        <div class="grid-16">
+          <img src="img/portfolio/esporte.jpg" alt="Esporte">
         </div>
       </div>
     </div>
@@ -131,6 +153,9 @@
     </div>
   </section>
   <!-- /copyright -->
+  <script src="./js/simple-anime.js"></script>
+  <script src="./js/simple-slide.js"></script>
+  <script src="./js/script.js"></script>
 </body>
 
 </html>
